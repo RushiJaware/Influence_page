@@ -1,0 +1,27 @@
+
+
+body {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+}
+
+.rating-color{
+    color:#fbc634 !important;
+}
+
+/* bjbjbjbjbj */
+
+/* a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+} */
+
+footer {
+  background: #a9ccf0;
+}
+
+
+
