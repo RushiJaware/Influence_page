@@ -7,21 +7,36 @@ body {
     min-height: 100vh;
 }
 
+a {
+  color: black !important;
+  text-decoration: none !important; 
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .rating-color{
     color:#fbc634 !important;
 }
 
 /* bjbjbjbjbj */
 
-/* a {
+/* .a {
   color: black;
-  text-decoration: none;
+  text-decoration: none !important; 
   transition: all 0.3s;
-} */
+}!important */
 
 footer {
   background: #a9ccf0;
 }
+
+
+.bg-custome{
+background-color: rgb(128, 128, 255);
+border-radius: 25px;
+width: 100%;
+}
+
 
 
 
