@@ -38,3 +38,7 @@ footer {
   border-radius: 25px;
   width: 100%;
 }
+
+img.img-fluid.rounded {
+  mix-blend-mode: darken;
+}
