@@ -29,16 +29,38 @@ a {
 
 
 footer {
-  background: rgb(237,227,243);
-  background: linear-gradient(97deg, rgba(237,227,243,1) 50%, rgba(223,239,238,1) 81%, rgba(206,229,243,1) 85%);
+  background: rgb(237, 227, 243);
+  background: linear-gradient(97deg, rgba(237, 227, 243, 1) 50%, rgba(223, 239, 238, 1) 81%, rgba(206, 229, 243, 1) 85%);
 }
 
 .bg-custome {
-  background-color: rgb(121, 121, 248);
-  border-radius: 25px;
+  background: rgb(74, 91, 249);
+  background: linear-gradient(185deg, rgba(74, 91, 249, 1) 44%, rgba(123, 134, 244, 1) 66%);
+  border-radius: 30px;
   width: 100%;
 }
 
 img.img-fluid.rounded {
   mix-blend-mode: darken;
+}
+
+.footer_lnks {
+  font-size: 15px !important;
+
+}
+
+.bgnf {
+  color: #25a3f7;
+
+}
+
+.tttt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.brder {
+  border-radius: 30px;
 }
