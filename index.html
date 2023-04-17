@@ -37,7 +37,8 @@
 
                     <div class="form-inline mr-auto">
                         <div class="bg-custome ">
-                            <a href="#" class="nav-item nav-link">Login</a>
+                            <a href="" type="button" class="nav-item nav-link" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Login</a>
                         </div>
                     </div>
                 </div>
@@ -412,9 +413,96 @@
         </footer>
 
 
+
+
+        <!-- modal secton starts  -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-pinkiponki">
+                        <h1 class="modal-title fs-5 " id="exampleModalLabel">Registration Details</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" >
+                        <form autocomplete="off" action="" method="post">
+
+                            <div class="form-group ">
+                                <label for=" inputName" class="col-form-label">Name</label>
+                                <input type="text" id="inputName" class="form-control" aria-labelledby="Name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for=" inputEmail" class="col-form-label">Email</label>
+                                <input type="email" id="inputEmail" class="form-control" aria-labelledby="Email"
+                                    placeholder="name@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for=" inputPhone" class="col-form-label">Phone</label>
+                                <input type="number" id="inputPhone" class="form-control" aria-labelledby="Phone"
+                                    placeholder="9876543210">
+                            </div>
+
+                            <div class="form-group">
+                                <label for=" inputAddress" class="col-form-label">Address</label>
+                                <input type="text" id="inputAddress" class="form-control" aria-labelledby="Address">
+                            </div>
+
+                            <!-- contry and stte sde by sde  -->
+                            <div class="form-group">
+                                <div class="row g-3 ">
+
+                                    <div class=" col-lg-6 col-md-12">
+                                        <label for=" inputCountry" class="col-form-label">Country</label>
+                                        <select id="inputCountry" class="form-select form-control-sm">
+                                            <option selected>India</option>
+                                            <option>USA</option>
+                                            <option>UAE</option>
+                                        </select>
+                                    </div>
+                                    <div class=" col-lg-6 col-md-12">
+                                        <label for=" inputState" class="col-form-label">State</label>
+                                        <select id="inputState" class="form-select form-control-sm">
+                                            <option selected>Maharashtra</option>
+                                            <option>Gujrat</option>
+                                            <option>Delhi</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="form-group">
+                                <label for=" inputZipCode" class="col-form-label">Zip Code</label>
+                                <input type="number" id="inputZipCode" class="form-control form-control-sm" aria-labelledby="Zip Code">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                            </div>
+                        </form>
+
+                    </div>
+
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>
+
+        <script></script>
 </body>
 
 </html>
