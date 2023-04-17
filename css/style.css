@@ -17,6 +17,10 @@ input::-webkit-inner-spin-button {
 }
 
 
+.col-lg-4.col-sm-6.text-center {
+  width: max-content;
+}
+
 h1 {
   font-size: 55px !important;
 }
