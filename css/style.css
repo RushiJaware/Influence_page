@@ -96,14 +96,14 @@ img.img-fluid.rounded {
 
   .col-lg-4.col-sm-6.bg-custome.text-center {
     width: 50%;
-    width: auto; 
-display: inline-block;
-}
+    width: auto;
+    display: inline-block;
+  }
 
-.col-lg-4.col-sm-6.text-center {
-  width: 50%;
-  display: inline-block;
-}
+  .col-lg-4.col-sm-6.text-center {
+    width: 50%;
+    display: inline-block;
+  }
 }
 
 @media screen and (max-width: 400px) {}
@@ -113,8 +113,22 @@ display: inline-block;
 
   .col-lg-6.col-sm-1.py-5 {
     width: auto;
-}
-.col-lg-6.col-sm-1 {
-  width: auto;
-}
+  }
+
+  .col-lg-6.col-sm-1 {
+    width: auto;
+  }
+
+  div#navbarCollapse {
+    background-color: rgb(149, 149, 243);
+    padding: 45px;
+    border-radius: 25px;
+
+    box-shadow: 12px 12px rgb(96, 169, 172);
+  }
+
+  .form-inline.mr-auto {
+    visibility: hidden;
+  }
+
 }
